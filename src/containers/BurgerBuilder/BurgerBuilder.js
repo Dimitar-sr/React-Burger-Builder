@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import Outside from '../../hoc/Outside';
+import Burger from '../../components/Burger/Burger';
 
 class BurgerBuilder extends Component {
   render() {
     return (
       <Outside>
-          <div>Burger</div>
+          <Burger></Burger>
           <div>Burger Controls</div>
       </Outside>
     )
