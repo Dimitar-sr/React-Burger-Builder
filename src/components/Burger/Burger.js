@@ -19,6 +19,7 @@ const burger = (props) => {
     if(passedIngredients.length === 0) {
         passedIngredients = <p>Please add some ingredients!</p>
     }
+    // {salad: true, meat:false, ....}
 
     return (
         <div className={classes.Burger}>
