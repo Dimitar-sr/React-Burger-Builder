@@ -1,5 +1,5 @@
 import React from 'react';
-import Outside from '../../../hoc/Outside';
+import Outside from '../../../hoc/Outside/Outside';
 import Button from '../../UI/Button/Button';
 
 const orderSummary = (props) => {

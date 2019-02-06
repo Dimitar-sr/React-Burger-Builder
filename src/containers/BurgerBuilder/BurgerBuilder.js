@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Outside from "../../hoc/Outside";
+import Outside from "../../hoc/Outside/Outside";
 import Burger from "../../components/Burger/Burger";
 import BuildControls from "../../components/Burger/BuildControls/BuildControls";
 import Modal from '../../components/UI/Modal/Modal';
