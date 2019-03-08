@@ -3,6 +3,7 @@ import classes from './App.css';
 import Layout from './hoc/Layout/Layout';
 import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 import Checkout from './containers/Checkout/Checkout';
+import { Route, Switch } from "react-router-dom";
 
 class App extends Component {
   render() {
@@ -11,8 +12,11 @@ class App extends Component {
         <header className={classes.AppHeader}>
         </header>
         <Layout>
-          <BurgerBuilder />
-          <Checkout />
+          <Switch>
+            <Route path="/checkout" exact component={Checkout} />
+            <Route path="/" component={BurgerBuilder} />
+          </Switch>
+
         </Layout>
 
       </div>
